@@ -1,0 +1,172 @@
+nav {
+    width: 100%;
+    display: flex;
+    background-color: rgb(35, 35, 39);
+    box-shadow: 10px 5px 5px black;
+}
+
+nav img {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav li {
+    font-size: 17px;
+    margin-left: 45px;
+    display: inline-block;
+}
+
+.slider input {
+    display: none;
+}
+
+.slider {
+    display: block;
+    height: 400px;
+    width: 600px;
+    margin: auto;
+    margin-top: 30px;
+    position: relative;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+
+.slider label {
+    background-color: rgb(116, 117, 94);
+    box-shadow: 1px 1px 1px black;
+    bottom: 13px;
+    cursor: pointer;
+    display: block;
+    height: 13px;
+    position: absolute;
+    width: 13px;
+    z-index: 10;
+}
+
+.slider li:nth-child(1) label {
+    left: 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.slider li:nth-child(2) label {
+    left: 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.slider li:nth-child(3) label {
+    left: 10px;
+    border-radius: 20px;
+}
+
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked~img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+#subtexto {
+    color: rgb(5, 5, 5);
+    text-decoration: bold;
+    font-style: italic;
+    font-style: oblique;
+    font-size: 17px;
+}
+
+#subtextoMid {
+    color: rgb(5, 5, 5);
+    text-decoration: bold;
+    font-style: italic;
+    font-size: 12px;
+    text-align: left;
+}
+
+#subtextoMidDesc {
+    color: rgb(5, 5, 5);
+    text-decoration: bold;
+    font-style: italic;
+    font-size: 12px;
+    text-align: center;
+}
+
+#subtextoMidEnd {
+    margin-left: 90px;
+    color: rgb(5, 5, 5);
+    text-decoration: bold;
+    font-style: italic;
+    font-size: 12px;
+    text-align: center;
+}
+
+#textButton {
+    color: white;
+    text-decoration: bold;
+    font-size: 15px;
+    text-align: center;
+}
+
+.container .jumbotron {
+    background-color: white;
+    text-align: center;
+}
+
+.text-hight {
+    text-align: right;
+    color: rgb(5, 5, 5);
+    text-decoration: bold;
+    font-style: italic;
+    font-style: oblique;
+    font-size: 17px;
+}
+
+#time {
+    float: left;
+}
+
+#timeDesc {
+    text-align: center;
+}
+
+#saiba {
+    background-color: rgb(35, 35, 39);
+}
+
+article li {
+    margin-left: 200px;
+    display: inline-block;
+    position: relative;
+}
